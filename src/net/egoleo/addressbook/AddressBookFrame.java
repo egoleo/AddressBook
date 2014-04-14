@@ -29,7 +29,7 @@ public class AddressBookFrame extends JFrame {
 
         //add the menubar
         addressBookMenuBar = new AddressBookMenuBar();
-        this.add(addressBookMenuBar);
+        this.setJMenuBar(addressBookMenuBar);
 
         //initialise JLabel components
         lengthLabel = new JLabel("Please enter the rectangles length");
