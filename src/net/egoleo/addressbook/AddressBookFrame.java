@@ -20,10 +20,16 @@ public class AddressBookFrame extends JFrame {
     private CalculateButtonHandler calculateButtonHandler;
     private ExitButtonHandler exitButtonHandler;
 
+    private AddressBookMenuBar addressBookMenuBar;
+
     public AddressBookFrame() {
 
         Container pane = getContentPane();
         pane.setLayout(new GridLayout(4, 2));
+
+        //add the menubar
+        addressBookMenuBar = new AddressBookMenuBar();
+        this.add(addressBookMenuBar);
 
         //initialise JLabel components
         lengthLabel = new JLabel("Please enter the rectangles length");
