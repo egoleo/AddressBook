@@ -14,7 +14,9 @@ public class AddressBookMain {
     public static void main(String[] args) {
         AddressBookFrame addressBookFrame = new AddressBookFrame();
 
+        //set the title, bounds and size of the frame.
         addressBookFrame.setTitle("Address Book");
+        addressBookFrame.setBounds(200,200,800, 600);
         addressBookFrame.setSize(WIDTH, HEIGHT);
 
         addressBookFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
