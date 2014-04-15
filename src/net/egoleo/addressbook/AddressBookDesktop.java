@@ -8,6 +8,7 @@ import javax.swing.*;
 public class AddressBookDesktop extends JDesktopPane {
 
     JInternalFrame editJInternalFrame;
+    JInternalFrame helpJInternalFrame;
 
     public AddressBookDesktop() {
 
